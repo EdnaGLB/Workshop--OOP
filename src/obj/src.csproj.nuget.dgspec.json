@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/danielmorgsilva/Documents/SDU/1stSemester/OOP/Worksop-OOP/src/src.csproj": {}
+    "/home/danielmorgsilva/Documents/SDU/1stSemester/OOP/Workshop--OOP/src/src.csproj": {}
   },
   "projects": {
-    "/home/danielmorgsilva/Documents/SDU/1stSemester/OOP/Worksop-OOP/src/src.csproj": {
+    "/home/danielmorgsilva/Documents/SDU/1stSemester/OOP/Workshop--OOP/src/src.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/danielmorgsilva/Documents/SDU/1stSemester/OOP/Worksop-OOP/src/src.csproj",
+        "projectUniqueName": "/home/danielmorgsilva/Documents/SDU/1stSemester/OOP/Workshop--OOP/src/src.csproj",
         "projectName": "src",
-        "projectPath": "/home/danielmorgsilva/Documents/SDU/1stSemester/OOP/Worksop-OOP/src/src.csproj",
+        "projectPath": "/home/danielmorgsilva/Documents/SDU/1stSemester/OOP/Workshop--OOP/src/src.csproj",
         "packagesPath": "/home/danielmorgsilva/.nuget/packages/",
-        "outputPath": "/home/danielmorgsilva/Documents/SDU/1stSemester/OOP/Worksop-OOP/src/obj/",
+        "outputPath": "/home/danielmorgsilva/Documents/SDU/1stSemester/OOP/Workshop--OOP/src/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/danielmorgsilva/.nuget/NuGet/NuGet.Config"
