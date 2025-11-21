@@ -7,7 +7,7 @@ namespace Program
     {
         public static void Main()
         {
-
+            
         }
     }
 }

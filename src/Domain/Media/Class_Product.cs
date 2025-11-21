@@ -1,23 +1,38 @@
 namespace Domain
 {
-abstract class Product
-{
-    private string title;
+    public abstract class Product
+    {
+        public string title;
 
-    public string GetTitle(string title)
+        public string GetTitle(string title)
+            {
+                this.title = title;
+                return title;
+            }
+
+        public void download()
+            {
+                Console.WriteLine("Downloading of " + title + " is completed.");
+            }
+
+
+
+        public abstract void Use();
+
+        public static Product? Parse(String product)
         {
-            this.title = title;
-            return title;
-        }
+            string[] fields = product.Split(",");
 
-    public void download()
-        {
-            Console.WriteLine("Downloading of " + title + " is completed.");
-        }
+            string type = fields[0];
 
-        
-    
-    public abstract void Use();
+            switch (type)
+            {
+                case "EBook":
+                    return Ebook.Parse(fields);
+                case "VideoGame":
+                    return VideoGame.Parse(fields);
+            }
+        }
        
-}
+    }
 }
