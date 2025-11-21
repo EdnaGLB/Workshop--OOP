@@ -10,14 +10,14 @@ abstract class Product
             return title;
         }
 
-    public abstract void download();
+    public void download()
+        {
+            Console.WriteLine("Downloading of " + title + " is completed.");
+        }
 
         
     
-    public void use()
-        {
-            
-          // Add code
-        }
+    public abstract void Use();
+       
 }
 }

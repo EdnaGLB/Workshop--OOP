@@ -39,7 +39,7 @@ class Ebook : Product
             return ISBN;
         }
 
-        public override void use()
+        public override void Use()
         {
             //Add Code
         }
